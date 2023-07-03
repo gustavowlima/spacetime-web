@@ -15,21 +15,8 @@ SPACETIME é um projeto full-stack(Back-end, Front-end e Mobile) utilizando Reac
 
 2. Adicione a variável de ambiente ao arquivo .env.local no formato NEXT_PUBLIC_GITHUB_CLIENT_ID=VALOR.
 
-Instale com npm
-
-Front-end
-
-```bash
-  cd spacetime-web/
-  npm install
-  npm run dev
-```
-
 ## Instalação
 
-Instale com npm
-
-Front-end
 
 ```bash
   cd spacetime-web/
