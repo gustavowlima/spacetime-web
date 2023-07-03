@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { MemoryNotFound } from "./MemoryNotFound";
 import { useState } from "react";
 
 type Memory = {

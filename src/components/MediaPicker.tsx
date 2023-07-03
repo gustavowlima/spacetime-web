@@ -22,7 +22,9 @@ export function MediaPicker({ value, imageEdited }: MediaPickerProps) {
     const previewURL = URL.createObjectURL(files[0]);
 
     setPreview(previewURL);
-    imageEdited === undefined ? null : imageEdited(true);
+    if (imageEdited !== undefined) {
+      imageEdited(true);
+    }
   }
 
   return (

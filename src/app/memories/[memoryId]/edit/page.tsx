@@ -1,7 +1,7 @@
 import { EditMemoryForm } from "@/components/EditMemoryForm";
 import { api } from "@/lib/api";
 import { ChevronLeft } from "lucide-react";
-import { revalidatePath, revalidateTag } from "next/cache";
+import { revalidatePath } from "next/cache";
 import { cookies } from "next/headers";
 import Link from "next/link";
 
